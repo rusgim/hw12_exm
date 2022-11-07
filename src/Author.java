@@ -6,4 +6,8 @@ public class Author {
         this.nameAuthor = nameAuthor;
         this.surNameAuthor = surNameAuthor;
     }
+
+    public String toString() {
+        return "Автор " + this.nameAuthor + " " + this.surNameAuthor;
+    }
 }
